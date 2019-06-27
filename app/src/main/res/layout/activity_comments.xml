@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommentsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/comments_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        >
+        
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/comments_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comments_toolbar"
+        android:layout_above="@+id/comments_bottom_Relative"/>
+    
+    <RelativeLayout
+        android:id="@+id/comments_bottom_Relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:padding="4dp"
+        android:layout_alignParentBottom="true"
+        >
+        
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/comments_image_profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        
+        <EditText
+            android:id="@+id/comments_add_comments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/comments_image_profile"
+            android:hint="Add a Comment....."
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:maxLines="6"
+            android:background="@android:color/transparent"
+            android:layout_toLeftOf="@+id/comments_post"
+
+            />
+
+        <TextView
+            android:id="@+id/comments_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POST"
+            android:layout_marginEnd="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorPrimaryDark"
+            
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "138229443405",
+    "firebase_url": "https://zcommerce-6e2f4.firebaseio.com",
+    "project_id": "zcommerce-6e2f4",
+    "storage_bucket": "zcommerce-6e2f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138229443405:android:bec32b4e51997afc",
+        "android_client_info": {
+          "package_name": "reader.softech.com.zcommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138229443405-192208hd80bslieob07g3ku8vdg9p24p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "reader.softech.com.zcommerce",
+            "certificate_hash": "c79b1ed04b36ccc22b2017f55cbd35012dbf760c"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzTMvihMRoHZ8wIjbEZ1tVydqgoez7-GE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138229443405-5sq5uqb604fhtb9s5c2t8f0u0jube94e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6882357503825534~1607612790"
+    }
+  ],
+  "configuration_version": "1"
+}
